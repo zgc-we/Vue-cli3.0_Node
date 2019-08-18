@@ -9,8 +9,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'login',
-      component: () => import('./containers/login.vue'),
+      name: 'dasboard',
+      component: () => import('./containers/dasboard.vue'),
     }
   ]
 })
